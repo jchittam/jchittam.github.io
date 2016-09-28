@@ -240,6 +240,12 @@ fieldset[disabled] .btn-xl.active {
     border-top-style: solid;
     border-top-color: #dcdcdc;
 }
+.navbar-nav {
+    text-align: left;
+}
+.nav > li {
+    float: none
+}
 
 @media (min-width: 768px) {
     .navbar-custom {
@@ -255,6 +261,12 @@ fieldset[disabled] .btn-xl.active {
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav > li {
+        float: left;
     }
 }
 
