@@ -186,7 +186,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-collapse {
     border-color: rgba(255, 255, 255, 0.02);
     float: left;
-    width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -240,9 +239,11 @@ fieldset[disabled] .btn-xl.active {
     border-top-style: solid;
     border-top-color: #dcdcdc;
 }
+
 .navbar-nav {
     text-align: left;
 }
+
 .nav > li {
     float: none
 }
@@ -267,6 +268,9 @@ fieldset[disabled] .btn-xl.active {
     }
     .nav > li {
         float: left;
+    }
+    .navbar-custom .navbar-collapse {
+        width: 100%;
     }
 }
 
