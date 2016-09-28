@@ -287,6 +287,11 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
+img.intro-logo {
+    max-width: 98%;
+    width: 350px;
+}
+
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
