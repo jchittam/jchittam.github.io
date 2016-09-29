@@ -28,7 +28,9 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <noscript>
+        <link rel="stylesheet" href="css/no-js.css">
+    </noscript>
 </head>
 
 <body id="page-top" class="index">
@@ -76,7 +78,7 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    <header class="parallax-window" data-parallax="scroll" data-speed="0.5" data-image-src="/img/header-bg.jpg">
         <div class="container" id="home">
             <div class="intro-text">
                 <div class="intro-lead-in"><img class="intro-logo" src="img/J-Chittam_sig_logo.png" alt="J. Chittam" /></div>
@@ -617,6 +619,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/main.min.js"></script>
+
+    <!-- Parallax Scrolling JS -->
+    <script src="js/parallax.js"></script>
 
 </body>
 
