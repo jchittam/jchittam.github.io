@@ -209,7 +209,7 @@ fieldset[disabled] .btn-xl.active {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 1px;
-    color: white;
+    color: #e49393;
 }
 
 .navbar-custom .nav li a:hover {
@@ -225,7 +225,6 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 0;
     color: white;
     background-color: transparent;
-    font-weight: bolder;
     border-top-width: 4px;
     border-top-style: solid;
     margin-top: 7px;
